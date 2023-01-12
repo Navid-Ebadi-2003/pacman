@@ -128,7 +128,7 @@ int main() {
 		int move=random(4);
 		
 		if(move==0){
-			while(mainArray[ghostY-1][ghostX]=='.' and ghostY>1){  //there is a problem in ghost ghostY>0 i cant find it.
+			while(mainArray[ghostY-1][ghostX]=='.' and ghostY>1){  //there is a problem in ghostY>0 that i cant find it.
 				ghostY-=1;
 				
 				gotoxy(ghostX,ghostY);
